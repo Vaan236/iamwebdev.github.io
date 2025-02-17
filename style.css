@@ -179,7 +179,7 @@ section{
     font-family: "Montserrat", serif;
     color: white;
     text-align: center;
-    font-size: 30;
+    font-size: 30px;
     padding: 50px;
 }
 
@@ -527,7 +527,7 @@ footer span a:hover{
         position: fixed;
         height: 80vh; /*size bar*/
         width: 100%;
-        left: -100%;
+        right: -100%; /*Position of menubtn left and right only*/
         top: 0;
         background: black;
         opacity: 90%;
@@ -537,7 +537,7 @@ footer span a:hover{
     }
 
     .navbar .menu.active{
-        left: 0;
+        right: 0;
     }
 
     .navbar .menu li{
